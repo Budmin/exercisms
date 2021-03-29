@@ -3,21 +3,36 @@
 // convenience to get you started writing code faster.
 //
 
-// export class Matrix {
-class Matrix{
+export class Matrix {
+// class Matrix{
   constructor(inputString) {
-    console.log(inputString);
+
+    this.matrix = (inputString.split('\n').map(elem => {
+      return elem.split(' ').map(num => {
+        return parseInt(num);
+      });
+    }));
+
   }
 
   get rows() {
-    throw new Error('Remove this statement and implement this function');
+    return this.matrix
   }
 
   get columns() {
-    throw new Error('Remove this statement and implement this function');
+
+    let output = []
+
+    for(let i = 0; i < this.matrix[0].length; i++){
+      output.push([]);
+
+      for(let j = 0; j < this.matrix.length; j++){
+        output[i].push( this.matrix[j][i] )
+      }
+
+    }
+
+    return output;
   }
 }
 
-
-
-new Matrix("1")

@@ -3,6 +3,11 @@
 // convenience to get you started writing code faster.
 //
 
+// checks if a single-character string is a letter or not
+function isAlpha(letter){
+  return letter.toLowerCase() != letter.toUpperCase();
+}
+
 export const hey = (message) => {
   
   let output = 'Whatever.';
@@ -18,7 +23,10 @@ export const hey = (message) => {
   }
   
   // check for shouting
-  if(message === message.toUpperCase()){
+
+  let alphabetOnly = message.split('').filter(letter => {return isAlpha(letter)}).join()
+
+  if(alphabetOnly.length != 0 && alphabetOnly == alphabetOnly.toUpperCase()){
     output = 'Whoa, chill out!';
     isShouting = true;
   }
@@ -37,3 +45,4 @@ export const hey = (message) => {
   return output;
 
 };
+

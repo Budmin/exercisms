@@ -1,0 +1,4 @@
+/home/drew/exercism/cpp/gigasecond/build/CMakeFiles/rebuild_cache.dir
+/home/drew/exercism/cpp/gigasecond/build/CMakeFiles/edit_cache.dir
+/home/drew/exercism/cpp/gigasecond/build/CMakeFiles/test_gigasecond.dir
+/home/drew/exercism/cpp/gigasecond/build/CMakeFiles/gigasecond.dir
