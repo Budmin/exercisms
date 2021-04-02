@@ -1,0 +1,4 @@
+/home/drew/exercism/cpp/binary-search/build/CMakeFiles/rebuild_cache.dir
+/home/drew/exercism/cpp/binary-search/build/CMakeFiles/edit_cache.dir
+/home/drew/exercism/cpp/binary-search/build/CMakeFiles/test_binary-search.dir
+/home/drew/exercism/cpp/binary-search/build/CMakeFiles/binary-search.dir
