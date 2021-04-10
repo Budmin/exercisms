@@ -28,10 +28,10 @@ class Garden:
             }
         
         else:
-            print('sort students and then their the students')
+            print('sort students and then they are the students')
             
 
-
+        
         # then assign plants to the studetns
         for student in self.students:
             print(student)
