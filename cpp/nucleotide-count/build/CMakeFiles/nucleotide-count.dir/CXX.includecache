@@ -9,13 +9,13 @@
 /home/drew/exercism/cpp/nucleotide-count/nucleotide_count.cpp
 nucleotide_count.h
 /home/drew/exercism/cpp/nucleotide-count/nucleotide_count.h
-iostream
--
 
 /home/drew/exercism/cpp/nucleotide-count/nucleotide_count.h
+map
+-
 string
 -
-map
+stdexcept
 -
 
 /home/drew/exercism/cpp/nucleotide-count/nucleotide_count_test.cpp
