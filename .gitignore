@@ -1,0 +1,12 @@
+# cpp/java
+build
+
+# c
+test
+tests.out
+
+# java
+build.gradle
+
+# javascript/typescripe
+node_modules

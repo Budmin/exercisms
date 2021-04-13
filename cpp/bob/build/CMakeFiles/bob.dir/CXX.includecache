@@ -11,6 +11,12 @@ bob.h
 /home/drew/exercism/cpp/bob/bob.h
 
 /home/drew/exercism/cpp/bob/bob.h
+cctype
+-
+string
+-
+algorithm
+-
 
 /home/drew/exercism/cpp/bob/bob_test.cpp
 bob.h
@@ -467,8 +473,4 @@ algorithm
 -
 cassert
 -
-
-/home/drew/exercism/cpp/bob/test/tests-main.cpp
-catch.hpp
-/home/drew/exercism/cpp/bob/test/catch.hpp
 

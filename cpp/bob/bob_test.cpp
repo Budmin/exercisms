@@ -8,7 +8,6 @@ TEST_CASE("stating_something")
     REQUIRE("Whatever." == bob::hey("Tom-ay-to, tom-aaaah-to."));
 }
 
-#if defined(EXERCISM_RUN_ALL_TESTS)
 TEST_CASE("shouting")
 {
     REQUIRE("Whoa, chill out!" == bob::hey("WATCH OUT!"));
@@ -94,6 +93,7 @@ TEST_CASE("silence")
     REQUIRE("Fine. Be that way!" == bob::hey(""));
 }
 
+#if defined(EXERCISM_RUN_ALL_TESTS)
 TEST_CASE("prolonged_silence")
 {
     REQUIRE("Fine. Be that way!" == bob::hey("          "));

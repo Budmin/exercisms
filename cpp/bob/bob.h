@@ -1,11 +1,14 @@
 #if !defined(BOB_H)
 #define BOB_H
 
+#include <cctype>
 #include <string>
-// time to learn how to use this
 #include <algorithm>
 
 namespace bob {
+
+	std::string hey(std::string);
+	bool contains_alpha(std::string);
 
 }  // namespace bob
 

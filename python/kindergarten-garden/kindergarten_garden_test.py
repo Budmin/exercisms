@@ -12,17 +12,17 @@ class KindergartenGardenTest(unittest.TestCase):
             garden.plants("Alice"), ["Radishes", "Clover", "Grass", "Grass"]
         )
 
-    # def test_partial_garden_different_garden_with_single_student(self):
-    #     garden = Garden("VC\nRC")
-    #     self.assertEqual(
-    #         garden.plants("Alice"), ["Violets", "Clover", "Radishes", "Clover"]
-    #     )
+    def test_partial_garden_different_garden_with_single_student(self):
+        garden = Garden("VC\nRC")
+        self.assertEqual(
+            garden.plants("Alice"), ["Violets", "Clover", "Radishes", "Clover"]
+        )
 
-    # def test_partial_garden_garden_with_two_students(self):
-    #     garden = Garden("VVCG\nVVRC")
-    #     self.assertEqual(
-    #         garden.plants("Bob"), ["Clover", "Grass", "Radishes", "Clover"]
-    #     )
+    def test_partial_garden_garden_with_two_students(self):
+        garden = Garden("VVCG\nVVRC")
+        self.assertEqual(
+            garden.plants("Bob"), ["Clover", "Grass", "Radishes", "Clover"]
+        )
 
     # def test_partial_garden_second_student_s_garden(self):
     #     garden = Garden("VVCCGG\nVVCCGG")
