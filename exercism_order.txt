@@ -1,8 +1,0 @@
-
-53/281  C++ Go Python      (19%)
-266     Bash C JavaScript
-163     Java R MIPS
-221     C# Swift x86-64
-232     Kotlin PHP Lua
-221     Dart Rust TypeScript
-
